@@ -9,7 +9,7 @@ class Home extends Component {
   constructor() {
     super();
     console.log("Is it working");
-    this.state = (todos) => (<List> </List>);
+    this.state = {todos: []};
   }
   // the addTodo function simply creates a new array that includes the user submitted todo item and then
   // updates the state with the new list.
@@ -30,7 +30,7 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <Todos todos={this.todos} />
+        <Todos todos={this.state.todos} />
         <AddTodo addTodo={this.addTodo} />
         <h1>Todo's </h1>
       </div>
