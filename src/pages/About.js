@@ -21,7 +21,10 @@ export default class About extends Component {
             <div className="centered">
               <div className="name_title"> Luis Alvarado-Labarca </div>
               <div className="brief_description">
-                It's a me
+                <para> Hi, I'm Luis! I'm currently a third year student at the University of Utah
+                      studying Computer Science. Some of my interests in the CS space at the moment are
+                      AI, data science, and software development. Outside of school I enjoy watching anime,
+                      rollerskating, reading, and gaming.  </para>
               </div>
             </div>
           </div>
