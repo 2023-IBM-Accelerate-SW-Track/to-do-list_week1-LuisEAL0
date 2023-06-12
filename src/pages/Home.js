@@ -1,12 +1,15 @@
 import React, { Component } from "react";
+import "./Home.css";
+import AddTodo from "../component/AddTodo.js";
+import Todos from "../component/todos.js";
+import { List } from "@mui/material";
 
 class Home extends Component {
   // A default state of this component with an empty list of todos.
   constructor() {
     super();
-    this.state = {
-      // create your empty list here call it todos.
-    };
+    console.log("Is it working");
+    this.state = (todos) => (<List> </List>);
   }
   // the addTodo function simply creates a new array that includes the user submitted todo item and then
   // updates the state with the new list.
@@ -27,7 +30,8 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <p> Replace this</p>
+        <Todos todos={this.todos} />
+        <AddTodo addTodo={this.addTodo} />
         <h1>Todo's </h1>
       </div>
     );
