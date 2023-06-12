@@ -113,7 +113,7 @@ TODO: Write overview
 
   Projected Hours:  10        Actual Hours: ...                      
     
-    - Learning:
-    - Documentation: 
-    - Coding:
-    - Debugging:
+    - Learning: 0.5 hours
+    - Documentation: 0.25 hours
+    - Coding: 0.25 hours
+    - Debugging: 0 hours
