@@ -97,3 +97,23 @@ Note: Material UI components (and other libraries) render as HTML components und
 ## Pre-session Material
 Here is a [**link**](https://ibm.ent.box.com/v/Software-recordings/file/1232576777097) to the pre-session material that was provided to you earlier.
 
+
+```
+Authors:    Luis Alvarado-Labarca
+Date:       06-June-2023
+GitHub ID:  LuisEAL0
+Repo:       https://github.com/2023-IBM-Accelerate-SW-Track/to-do-list_week1-LuisEAL0.git
+```
+
+# Overview of the App Functionality
+
+TODO: Write overview
+
+# Time Expenditures
+
+  Projected Hours:  10        Actual Hours: ...                      
+    
+    - Learning:
+    - Documentation: 
+    - Coding:
+    - Debugging:
