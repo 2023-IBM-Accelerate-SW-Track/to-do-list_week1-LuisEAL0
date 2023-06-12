@@ -39,4 +39,5 @@
 .profile_image {
   width: 500px;
   height: auto;
+  background-image: url("../assets/profile_pic_name.jpg");
 }
