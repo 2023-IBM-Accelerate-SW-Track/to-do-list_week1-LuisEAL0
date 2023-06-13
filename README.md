@@ -98,20 +98,23 @@ Note: Material UI components (and other libraries) render as HTML components und
 Here is a [**link**](https://ibm.ent.box.com/v/Software-recordings/file/1232576777097) to the pre-session material that was provided to you earlier.
 
 ------------------------------------------------------------------------------------------
+```
 Authors:    Luis Alvarado-Labarca
 Date:       06-June-2023
 GitHub ID:  LuisEAL0
 Repo:       https://github.com/2023-IBM-Accelerate-SW-Track/to-do-list_week1-LuisEAL0.git
-
+```
 # Overview of the App Functionality
 
-TODO: Write overview
+Very simple webpage that shows some info about me and also contains a simple todo application built into the page. 
+
+Was short on time, so wasn't able to add all possible desired features. However, did want to add reordering of the list whenever a box is check so that todo's that are checked get sent to the the bottom of the list. Expected time to add this feature would probably be a hour.  
 
 # Time Expenditures
 
-  Projected Hours:  10        Actual Hours: ...                      
+  Projected Hours:  10        Actual Hours:   4                      
     
-    - Learning: 1 hours
+    - Learning: 2 hours
     - Documentation: 0.5 hours
-    - Coding: 0.5 hours
-    - Debugging: 0 hours
+    - Coding: 1 hours
+    - Debugging: 0.5 hours

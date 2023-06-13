@@ -8,7 +8,6 @@ class Home extends Component {
   // A default state of this component with an empty list of todos.
   constructor() {
     super();
-    console.log("Is it working");
     this.state = {todos: []};
   }
   // the addTodo function simply creates a new array that includes the user submitted todo item and then
@@ -29,10 +28,11 @@ class Home extends Component {
   };
   render() {
     return (
+
       <div className="Home">
-        <Todos todos={this.state.todos} />
+        <h1 style={{ textAlign: "center" }}> ToDo</h1>
         <AddTodo addTodo={this.addTodo} />
-        <h1>Todo's </h1>
+        <Todos todos={this.state.todos} />
       </div>
     );
   }

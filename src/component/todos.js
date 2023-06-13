@@ -14,11 +14,12 @@ const Todos = ({ todos }) => {
       todos.map((todo) => {
         return (
           <Grid key={todo.id}>
-            <Card>
+            <Card style={{marginBottom: "10px"}}> 
               {/* Remember, we set the local state of this todo item when the user submits the form in 
               AddTodo.js. All we need to do is return the todo list item */}
-              <CardContent>
-                <span style={{ padding: "50px" }}> {todo.ListItemText} </span> 
+              <CardContent style={{ display: "flex", alignItems: "center" }}>
+                <Checkbox style={{float: "left"}}></Checkbox>
+                <span style={{marginLeft: "10px", wordWrap: "break-word", flex: 1 }}> {todo.content} </span> 
               </CardContent>
             </Card>
           </Grid>
